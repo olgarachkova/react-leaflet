@@ -4,7 +4,7 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 function App() {
   return (
     <div className="App">
-      <div id="map" style={{ width: '500px', height: '350px' }}>
+      <div id="map" style={{ width: 500, height: 350 }}>
         <MapContainer center={[51.505, -0.09]} zoom={13}>
           <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
